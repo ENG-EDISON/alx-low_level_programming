@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- *main: Entry function
- *Description: Print to STDIO
- *Return: 1 if successful
+ *main - Entry function
+ *Description : Print using the write funnction to display to stdio
+ *Return:1 if successful
  */
 int main(void)
 {
