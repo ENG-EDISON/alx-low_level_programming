@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 #include <time.h>
 /**
  *main - entry function
