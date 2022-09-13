@@ -4,7 +4,7 @@
 /**
  *main -  This is the entry function
  *Description: This function should print _putchar followed by a new line
- *Return; The main fuction returns 0
+ *Return: The main fuction returns 0
  */
 
 int main(void)
