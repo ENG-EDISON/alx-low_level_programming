@@ -1,4 +1,7 @@
 #include "main.h"
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
 *_islower - Checks if character is lower case
 *@c: The character to be passed to a function
