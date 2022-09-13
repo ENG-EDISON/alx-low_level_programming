@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -14,7 +15,7 @@ int length = 0, char_pos;
 length = strlen(name);
 for (char_pos = 0; char_pos < length; char_pos++)
 {
-putchar(name[char_pos]);
+_putchar(name[char_pos]);
 }
 putchar('\n');
 return (0);
