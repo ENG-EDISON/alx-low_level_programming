@@ -1,16 +1,17 @@
-
 /**
- * _islower - Checks if character is lower case 
- *Return:return 1 if character is lower case else  return 0
- */
+*_islower - Checks if character is lower case
+*@c: The character to be passed to a function
+*Return:return 1 if character is lower case else  return 0
+*
+*/
 int _islower(int c)
 {
-if(islower(c))
+if (islower(c))
 {
-  return (1);
+return (1);
 }
 else
 {
-  return (0);
-} 
+return (0);
+}
 }
