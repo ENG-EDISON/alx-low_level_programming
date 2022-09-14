@@ -13,5 +13,6 @@ if(n < 0)
 {
 n *= -1;
 }
+_putchar(x + '0');
 return (n);
 }
