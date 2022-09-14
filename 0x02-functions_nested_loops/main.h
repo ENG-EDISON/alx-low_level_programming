@@ -3,7 +3,7 @@
 /**
 *_putchar - function call to print characters
 *Description: Prototype functions
-*@c : The parameter to be checked
+*@c: The parameter to be passed
 *Return: The main fuction returns 0
 */
 int _putchar (char c);
@@ -16,4 +16,5 @@ int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
 void times_table(void);
+int add(int a, int b);
 #endif
