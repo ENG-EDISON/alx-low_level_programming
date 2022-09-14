@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
 *print_sign - This function prints the sign and returns
 *Value according to the set conditions
