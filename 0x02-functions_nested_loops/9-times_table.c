@@ -15,7 +15,7 @@ for (row = 0; row < 10; row++)
 for (column = 0; column < 10; column++)
 {
 multi = row * column;
-if (column < 10)
+if (multi < 10)
 {
 if (column != 0)
 {
