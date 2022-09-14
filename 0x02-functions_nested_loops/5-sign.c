@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 /**
 *print_sign - This function prints the sign and returns
 *Value according to the set conditions
