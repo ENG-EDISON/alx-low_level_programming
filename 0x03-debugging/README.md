@@ -1,0 +1,1 @@
+0-main.c is for testings functions in main.h
