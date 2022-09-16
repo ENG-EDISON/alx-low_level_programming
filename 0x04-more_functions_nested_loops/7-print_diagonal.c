@@ -16,7 +16,7 @@ for (int k = n; k <= n + i; k++)
 _putchar(' ');
 }
 _putchar(92);
-}
-}
 _putchar('\n');
+}
+}
 }
