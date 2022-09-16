@@ -10,11 +10,7 @@
 void print_line(int n)
 {
 int lines = n, i;
-if (lines <= 0)
-{
-_putchar('\n');
-}
-else
+if (lines >= 0)
 {
 for (i = 0; i < lines; i++)
 {
