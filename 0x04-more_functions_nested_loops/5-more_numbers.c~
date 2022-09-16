@@ -9,10 +9,14 @@
  */
 void print_numbers(void)
 {
-int n = 0;
+int m = 0, n = 0;
 for (n = 0; n < 10; n++)
 {
-_putchar(n + '0');
+for (m = 0; m < 15; m++)
+{
+_putchar(n / 10 + '0');
+_putchar(n % 10 + '0'); 
 }
 _putchar('\n');
+}
 }
