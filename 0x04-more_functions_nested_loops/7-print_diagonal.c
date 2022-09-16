@@ -13,10 +13,10 @@ for (int i = 0; i < n; i++)
 {
 for (int k = n; k <= n + i; k++)
 {
-putchar(' ');
+_putchar(' ');
 }
-putchar(92);
+_putchar(92);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
