@@ -3,10 +3,10 @@
 #include <string.h>
 #include <stdlib.h>
 /**
-*print_numbers - print 0 to 9
+*more_numbers - print 0 to 14 ,10 times
 *
 */
-void print_numbers(void)
+void more_numbers(void)
 {
 int m = 0, n = 0;
 for (n = 0; n < 10; n++)
