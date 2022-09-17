@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *
- *
+ *print_square - print square of # according to @size
+ *@size:The side of the square
  *
  *
  */
-void print_square(int size)                                                                                        
-{                                                                                                                 
+void print_square(int size)
+{
 int i, k;
 for (i = 0; i < size; i++)
 {
@@ -16,7 +16,7 @@ _putchar('#');
 }
 _putchar('\n');
 }
-if(size<0)
+if (size < 0)
 {
 _putchar('\n');
 }
