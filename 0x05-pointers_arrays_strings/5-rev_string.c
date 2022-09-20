@@ -24,4 +24,5 @@ s[n] = destination[k];
 n++;
 k++;
 }
+_putchar('\n');
 }
