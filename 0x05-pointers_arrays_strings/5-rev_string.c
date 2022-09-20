@@ -9,9 +9,19 @@
 void rev_string(char *s)
 {
 int n = strlen(s);
+char destination[100] = " ";
+int k = 0;
 while (n--)
 {
-_putchar(s[n]);
+destination[k] = s[n];
+k++;
 }
- _putchar('\n');
+k = 0;
+n = 0;
+while (destination[k] != '\0')
+{
+s[n] = destination[k];
+n++;
+k++;
+}
 }
