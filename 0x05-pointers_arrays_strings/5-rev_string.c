@@ -13,5 +13,5 @@ while (n--)
 {
 _putchar(s[n]);
 }
- _putchar(s[n]);
+ _putchar('\n');
 }
