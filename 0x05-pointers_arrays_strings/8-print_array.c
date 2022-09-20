@@ -17,5 +17,5 @@ printf(", ");
 }
 num++;
 }
-_putchar('\n');
+printf("\n");
 }
