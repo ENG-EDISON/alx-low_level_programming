@@ -17,7 +17,6 @@ while (j < n)
 {
 dest[i++] = src[j++];
 }
-dest[i++] = '\0';
 }
 return (dest);
 }
