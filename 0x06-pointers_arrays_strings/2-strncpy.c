@@ -14,7 +14,7 @@ while (*(src + j) != '\0')
 {
 if (j < n)
 {
-*(dest+i) = *(src+j);
+*(dest + i) = *(src + j);
 i++;
 }
 j++;
