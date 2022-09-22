@@ -13,12 +13,11 @@ while (dest[i] != '\0')
 {
 i++;
 }
-while (dest[i++] = src[j++] != '\0')
+while (j < n)
 {
-if (j < n)
-{
-break;
+dest[i++] = src[j++];
 }
+dest[i++] = '\0';
 }
 return (dest);
 }
