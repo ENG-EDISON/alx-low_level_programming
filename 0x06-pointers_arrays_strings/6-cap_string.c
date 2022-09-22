@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * cap_string - function that capitalizes all words of a string.
- * @ch: Pointer to Char
+ * @s: Pointer to Char
  * Return: char.
  */
 char *cap_string(char *s)
@@ -23,9 +23,9 @@ if (*(s + i) == ' ' || *(s + i) == '\n' || *(s + i) == '\t'
 i++;
 if (*(s + i) >= 97 && *(s + i) <= 122)
 {
-*(s + i) = *(s + i) - ' ';
+*(s + i) = *(s + i) -' ';
 }
-}     
+}
 else
 i++;
 }
