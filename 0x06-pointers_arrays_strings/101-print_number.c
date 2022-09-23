@@ -4,17 +4,18 @@
  *@n:Integer to print
  *Return:Nothing
  */
-void print_number(long n)
+void print_number(int n)
 {
-if (n < 0)
-{
-putchar('-');
-n = -n;
-}
-if (n / 10 > 0)
-{
-print_number (n / 10);
-}
-_putchar((n % 10) + '0');
-}
+	unsigned int hold = n;
 
+	if (n < 0)
+	{
+		_putchar('-');
+		hold = -hold;
+	}
+
+	if ((hold / 10) > 0)
+		print_number(hold / 10);
+
+	_putchar((hold % 10) + '0');
+}
