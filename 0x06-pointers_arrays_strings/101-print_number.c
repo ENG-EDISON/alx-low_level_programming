@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *print - Function to print integers
+ *print_number - Function to print integers
  *@n:Integer to print
  *Return:Nothing
  */
-void print(long n)
+void print_number(long n)
 {
 if (n < 0)
 {
@@ -16,6 +16,5 @@ if (n / 10)
 print(n / 10);
 }
 _putchar(n % 10 + '0');
-_putchar('\n');
 }
 
