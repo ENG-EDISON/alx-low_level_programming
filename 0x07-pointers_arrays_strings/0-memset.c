@@ -4,6 +4,7 @@
 *@s:the string to copy to
 *@c:the character to be copied to
 *@n:The number of characters to be copied to.
+*Return: pointer to dest
 */
 void *_memset(void *s, int c, size_t n)
 {
