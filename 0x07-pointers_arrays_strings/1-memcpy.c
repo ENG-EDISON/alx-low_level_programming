@@ -14,5 +14,5 @@ for (i = 0; n; i++)
 dest[i] = src[i];
 n--;
 }
-return (s);
+return (dest);
 }
