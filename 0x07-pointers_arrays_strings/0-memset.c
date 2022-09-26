@@ -8,11 +8,14 @@
 */
 void *_memset(void *s, int c, size_t n)
 {
-unsigned int index = 0;
-unsigned char *dest = s, hold = c;
-for (index = 0; index < n; index++)
-{
-dest[index] = hold;
-}
-return (dest);
+  unsigned int index;
+
+  unsigned char *memory = s, value = c;
+
+  for (index = 0; index < n; index++)
+   {
+     memory[index] = value;
+   }
+
+  return (memory);
 }
