@@ -6,16 +6,15 @@
 *@n:The number of characters to be copied to.
 *Return: pointer to dest
 */
-void *_memset(void *s, int c, size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
-  unsigned int index;
+	int i;
 
-  unsigned char *memory = s, value = c;
+	for (i = 0; n; i++)
+	{
+		*(s + i) = b;
+		n--;
+	}
 
-  for (index = 0; index < n; index++)
-   {
-     memory[index] = value;
-   }
-
-  return (memory);
+	return (s);
 }
