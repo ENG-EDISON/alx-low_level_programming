@@ -27,7 +27,6 @@ return (p);
 }
 i++;
 }
-}
 else
 {
 p = 0;
