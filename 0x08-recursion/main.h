@@ -14,4 +14,8 @@ int compare(char *s1, char *s2);
 int _get_rev(char *s, char *d);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
+int wildcmp(char *s1, char *s2);
+int full_compare(char *s1, char *s2, char *last_sc, char *last_s1_sc);
+int find_next_c(char **s2, char *as2);
+int find_after_sc(char **s1, char *as1, char s2);
 #endif
