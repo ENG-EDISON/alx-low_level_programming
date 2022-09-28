@@ -45,9 +45,9 @@ if (*(s1 + 1) != '\0')
 if (*s1 == *s2 && compare(s1 + 1, s2 + 1))
 {
 return (1);
-}    
+}
 else
-{	
+{
 return (0);
 }
 }
