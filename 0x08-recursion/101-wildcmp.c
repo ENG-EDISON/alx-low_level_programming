@@ -76,7 +76,7 @@ if (*as2 != '*')
 return (1);
 }
 if (find_next_c(s2, as2 + 1) == 0)
-{    
+{
 return (0);
 }
 return (1);
@@ -91,7 +91,7 @@ return (1);
 int find_after_sc(char **s1, char *as1, char s2)
 {
 if (*as1 == '\0')
-{   
+{
 return (0);
 }
 if (*as1 == s2)
