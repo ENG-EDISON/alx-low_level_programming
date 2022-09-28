@@ -38,7 +38,7 @@ if (*s1 == *s2)
 if (*s1 == '\0')
 {
 return (1);
-}    
+}
 return (1 * full_compare(s1 + 1, s2 + 1, last_sc, last_s1_sc));
 }
 if (sc || (*(s2 - 1) == '*'))
@@ -46,7 +46,7 @@ if (sc || (*(s2 - 1) == '*'))
 if (!find_after_sc(&s1, s1, *s2))
 {
 return (0);
-}   
+}
 return (1 * full_compare(s1 + 1, s2 + 1, last_sc, last_s1_sc));
 }
 if (last_sc && *s2 != '\0')
@@ -64,9 +64,7 @@ return (0);
  * @as2: auxiliar pointer to later update s2 addrss
  * Return: 1 if character is found, 0 otherwise.
  */
-
-
-int find_next_c(char **s2, char *as2)  
+int find_next_c(char **s2, char *as2)
 {
 if (*as2 == '\0')
 {
