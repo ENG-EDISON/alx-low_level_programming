@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+/**
+ *main - Entry function to print the commans
+ *@argc:The number of commands
+ *@argv:The NULL pointer to command
+ *Return:0 if successful
+ */
+int main(int argc, char *argv[])
+{
+int i = 0;
+ printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+return (0);
+}
