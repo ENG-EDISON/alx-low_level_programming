@@ -19,9 +19,19 @@ if (argc < 2)
 printf("0\n");
 return (0);
 }
+<<<<<<< HEAD
 ++argv;
 --argc;
 while (argc--)
+=======
+/**
+ *get_coins_change - Get the minimum number of coins
+ *@change:The balance amount
+ *Return: The number of coins
+ *
+ */
+int get_coins_change(int change)
+>>>>>>> parent of 53a060c... number of coins
 {
 num = (int)strtol(*argv, &ptr, 10);
 res = res + num;
@@ -32,6 +42,10 @@ return (1);
 }
 ++argv;
 }
+<<<<<<< HEAD
 printf("%d\n", res);
 return (0);
+=======
+return (number_coins);
+>>>>>>> parent of 53a060c... number of coins
 }
