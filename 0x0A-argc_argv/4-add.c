@@ -26,7 +26,7 @@ printf("0\n");
 }
 else
 {
-int balance = atoi(argv[1]);
+balance = atoi(argv[1]);
 get_coins_change(balance);
 }
 return (0);
