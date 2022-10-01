@@ -10,27 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
-int res = 0;
-int num = 0;
-char *ptr = 0;
-if (argc < 2)
+int num, digit, sum = 0;
+for (num = 1; num < argc; num++)
 {
-printf("0\n");
-return (0);
-}
-++argv;
---argc;
-while (argc--)
+for (digit = 0; argv[num][digit]; digit++)
 {
-num = (int)strtol(*argv, &ptr, 10);
-res = res + num;
-if (*ptr != 0 || num < 0 || res < 0)
+if (argv[num][digit] < '0' || argv[num][digit] > '9')
 {
 printf("Error\n");
 return (1);
 }
-++argv;
 }
-printf("%d\n", res);
+sum += atoi(argv[num]);
+}
+printf("%d\n", sum);
 return (0);
 }
