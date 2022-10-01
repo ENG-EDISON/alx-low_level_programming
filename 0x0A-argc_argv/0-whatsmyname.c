@@ -15,9 +15,9 @@ int n=0;
 hold=argv[0];
 while (hold[n] != '\0')
 {
-putchar(hold[n]);
+_putchar(hold[n]);
 n++;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
