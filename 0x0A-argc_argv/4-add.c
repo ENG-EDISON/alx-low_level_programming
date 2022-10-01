@@ -10,21 +10,6 @@
  */
 int main(int argc, char *argv[])
 {
-<<<<<<< HEAD
-int res = 0;
-int num = 0;
-char *ptr = 0;
-if (argc < 2)
-{
-printf("0\n");
-return (0);
-}
-++argv;
---argc;
-while (argc--)
-<<<<<<< HEAD
-=======
-=======
 int balance = 0;
 if (argc != 2)
 {
@@ -46,35 +31,12 @@ get_coins_change(balance);
 }
 return (0);
 }
->>>>>>> parent of c19e53d... number of coins
-=======
->>>>>>> 9e653e68580d37f3ba86b6ec6dab1c52c015fd3d
 /**
  *get_coins_change - Get the minimum number of coins
  *@change:The balance amount
  *Return: The number of coins
  *
  */
-<<<<<<< HEAD
-int get_coins_change(int change)
-{
-num = (int)strtol(*argv, &ptr, 10);
-res = res + num;
-if (*ptr != 0 || num < 0 || res < 0)
-{
-printf("Error\n");
-return (1);
-}
-++argv;
-}
-<<<<<<< HEAD
-printf("%d\n", res);
-return (0);
-=======
-return (number_coins);
-<<<<<<< HEAD
->>>>>>> parent of 53a060c... number of coins
-=======
 void get_coins_change(int change)
 {
 const int coins[5] = {25, 10, 5, 2, 1};
@@ -97,8 +59,4 @@ printf("%d\n", number_coins);
 break;
 }
 }
->>>>>>> parent of c19e53d... number of coins
-=======
-
->>>>>>> 9e653e68580d37f3ba86b6ec6dab1c52c015fd3d
 }
