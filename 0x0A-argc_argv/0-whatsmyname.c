@@ -10,6 +10,14 @@
 
 int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%s\n", argv[0]);
-	return (0);
+char *hold;
+int n=0;
+hold=argv[0];
+while (hold[n] != '\0')
+{
+putchar(hold[n]);
+n++;
+}
+putchar('\n');
+return (0);
 }
