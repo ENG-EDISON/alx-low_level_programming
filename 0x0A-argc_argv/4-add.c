@@ -37,7 +37,7 @@ return (0);
  *Return: The number of coins
  *
  */
-int get_coins_change(int change)
+void get_coins_change(int change)
 {
 const int coins[5] = {25, 10, 5, 2, 1};
 int count = 0;
@@ -59,5 +59,4 @@ printf("%d\n", number_coins);
 break;
 }
 }
-return (number_coins);
 }

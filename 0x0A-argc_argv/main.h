@@ -2,5 +2,5 @@
 #define MAIN_H
 
 int _putchar(char c);
-int get_coins_change(int change);
+void get_coins_change(int change);
 #endif
