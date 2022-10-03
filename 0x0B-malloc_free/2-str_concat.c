@@ -33,7 +33,7 @@ while (*ptr++)
 i++;
 }
 i++;
-ptr = malloc(i *sizeof(char));
+ptr = malloc(i * (sizeof(char)));
 if (ptr == NULL)
 {
 return (NULL);
